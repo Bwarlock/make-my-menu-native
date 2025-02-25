@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Make My Menu",
+    "slug": "make-my-menu-native",
+    "version": "1.0.3",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png"
+      },
+      "package": "com.bwarlock.makemymenu"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d91246dd-5611-4a03-98a3-8c28b0fc4605"
+      }
+    }
+  }
+}
